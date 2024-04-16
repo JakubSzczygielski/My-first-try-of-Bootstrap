@@ -1,0 +1,206 @@
+body {
+    background-color: rgb(246, 242, 242);
+    margin: 0;
+    height: auto;
+    /* scroll-behavior: smooth; */
+}
+
+.navbar {
+    background-color: rgb(240, 245, 245);
+    position: fixed;
+    font-size: large;
+    width: 100%;
+    z-index: 2;
+    
+}
+
+.navbar .container-fluid .navbar-brand {
+    color: rgb(40, 23, 5);
+}
+
+nav .container-fluid .collapse ul li a:hover {
+    color: rgb(57, 33, 6);
+    text-decoration: underline;
+}
+
+.zdj-1 {
+   width: 38%;
+    height: 600px;
+    margin-top: 1%;
+    background-image: url(images/8089fe86ae2972aa031c2b6651936a17.jpg);
+    box-shadow: 1px 1px 10px black;
+    border: none;
+    display: inline-block; 
+    background-repeat: no-repeat;
+    margin-left: 4%;
+}
+.napis-1 {
+    padding-top: 100px;
+    width: 49%;
+    height: 600px ;
+    /* border: solid; */
+    position: relative;
+    margin-top: 1%;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;  
+    margin-left: 4%; 
+}
+.napis-1 h1 {
+    text-align: center;
+    font-style: italic;
+}
+.napis-1 p {
+    padding-top: 20px;
+    padding-left: 10px;
+    line-height: 25px;
+}
+.napis-1 p::first-letter {
+    font-size: 25px;
+}
+
+.zdj-2 {
+     width: 38%;
+     height: 600px;
+     margin-top: 3%;
+     background-image: url(images/b9af4a91b569e38205e23a8c2083c1ff.jpg);
+     background-position: center center;
+     box-shadow: 1px 1px 10px black;
+     border: none; 
+     background-repeat: no-repeat;
+     margin-right: 4%;
+     float: right;
+ }
+ .napis-2 {
+     padding-top: 100px;
+     width: 49%;
+     height: 600px ;
+     /* border: solid; */
+     margin-left: 4%;
+     position: relative;
+    padding-top: 80px;   
+     display: inline-block;
+     font-family: 'Poppins', sans-serif;  
+     margin-right: 4%; 
+ }
+ .napis-2 h1 {
+    text-align: center;
+    font-style: italic;
+}
+.napis-2 p {
+    padding-top: 20px;
+    padding-left: 10px;
+    line-height: 25px;
+}
+.napis-2 p::first-letter {
+    font-size: 25px;
+}
+.zdj-3 {
+    width: 38%;
+    height: 600px;
+    margin-top: 13%;
+    background-image: url(images/1843b214f3d0ffca016cccc2d90f6bf4.jpg);
+    background-position: center center;
+    box-shadow: 1px 1px 10px black;
+    border: none; 
+    background-repeat: no-repeat;
+    margin-left: 4%;
+    background-size: cover;
+   
+    display: inline-block;
+ }
+ .napis-3 {
+    padding-top: 13%;
+    width: 49%;
+    height: 600px ;
+    /* border: solid; */
+    position: absolute;
+    margin-top: 1%;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;  
+    right: 4%;
+    margin-top: 4%;
+
+
+
+ }
+ .napis-3 h1 {
+     text-align: center;
+     font-style: italic;
+ }
+ .napis-3 p {
+     padding-top: 20px;
+     padding-left: 10px;
+     line-height: 25px;
+ }
+ .napis-3 p::first-letter {
+     font-size: 25px;
+ }
+ #obrazy {
+    height: 100px;
+    width: auto;
+    border: solid 4px;
+    background-color: rgb(253, 243, 231); 
+    margin-top: 1%;
+    
+ }
+ 
+ #obrazy h1{
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    
+ }
+
+ .slider {
+    margin-top:1%;
+
+}
+#tabela {
+    height: 100px;
+    width: auto;
+    border: solid 4px;
+    background-color: rgb(253, 243, 231); 
+    margin-top: 1%;
+    
+ }
+ 
+ #tabela h1{
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    
+ }
+.tabelka {
+    margin-top: 1%;
+}
+#mapa {
+    height: 100px;
+    width: auto;
+    border: solid 4px;
+    background-color: rgb(253, 243, 231); 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+ }
+ 
+ #mapa h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+ }
+ #Map {
+    margin: 0 auto;
+    width: 1300px;
+    margin-bottom: 1px;
+ }
+ .footer {
+    height: 50px;
+    width: auto;
+    background-color: rgb(32, 29, 29);
+ }
+ .footer h1 {
+    font-size: small;
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+ }
